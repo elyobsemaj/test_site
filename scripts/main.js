@@ -3,9 +3,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/centurion.jpg') {
-      myImage.setAttribute ('src','images/centurion2.jpg');
+      myImage.setAttribute ('src','https://elyobsemaj.github.io/test_site/images/centurion2.jpg');
     } else {
-      myImage.setAttribute ('src','images/centurion.jpg');
+      myImage.setAttribute ('src','https://elyobsemaj.github.io/test_site/images/centurion.jpg');
     }
 }
 
